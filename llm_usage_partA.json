@@ -1,0 +1,45 @@
+{
+  "student_metadata": {
+    "name": "Charan Adithya",
+    "roll_number": "230075",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-01"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Grok (xAI)",
+      "model": "Grok 4.20",
+      "provider": "xAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4.20",
+      "purpose": "Initial paper search for Part A",
+      "prompt": "Please help me in finding a good research paper with all the rules followed in the above pdf. For finding of research paper you mush go through given source link and date",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Guided me to select a perfect SVM paper that meets every single Part A rule",
+      "student_verification": "I verified the CORE A* venue (ICML 2010), year 2010, methodological SVM contribution, and laptop reproducibility using the PDF and live sheet myself",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Please help me in finding a good research paper with all the rules followed in the above pdf. For finding of research paper you mush go through given source link and date",
+      "why_important": "This was the starting point that led me to the perfect easy SVM paper (Rueping ICML 2010) that satisfies every constraint in the exam PDF"
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding acknowledged": true,
+    "signature": "Charan Adithya",
+    "date": "2026-03-01"
+  }
+}
