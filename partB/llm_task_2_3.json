@@ -1,0 +1,108 @@
+{
+  "student_metadata": {
+    "name": "Charan Adithya",
+    "roll_number": "230075",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Grok (xAI)",
+      "model": "Grok 4.20",
+      "provider": "xAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-08",
+      "task_tag": "Task 2.3",
+      "tool_name": "Grok",
+      "model": "Grok 4.20",
+      "purpose": "Deep learning and conceptual queries (1)",
+      "prompt": "What are some best practices for visually comparing the accuracy of two machine learning models?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Suggested a side-by-side bar chart which I implemented via matplotlib.",
+      "code_used_verbatim": false,
+      "student_verification": "I carefully verified these conceptual explanations against the original paper.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-08",
+      "task_tag": "Task 2.3",
+      "tool_name": "Grok",
+      "model": "Grok 4.20",
+      "purpose": "Deep learning and conceptual queries (2)",
+      "prompt": "How do I add the exact numerical value on top of each bar in a matplotlib bar chart?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Generated the `ax.text` loop code to annotate bars.",
+      "code_used_verbatim": true,
+      "student_verification": "I carefully verified these conceptual explanations against the original paper.",
+      "confidence_level": 5,
+      "student_modification": "Changed text formatting to 4 decimal places."
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-08",
+      "task_tag": "Task 2.3",
+      "tool_name": "Grok",
+      "model": "Grok 4.20",
+      "purpose": "Deep learning and conceptual queries (3)",
+      "prompt": "Why might my reproduced result be exactly 0.9162 while the paper reports a range between 0.90 and 0.96?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped me construct a strong scientific reasoning regarding fixed seeds vs 10-fold cross-validation.",
+      "code_used_verbatim": false,
+      "student_verification": "I carefully verified these conceptual explanations against the original paper.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-08",
+      "task_tag": "Task 2.3",
+      "tool_name": "Grok",
+      "model": "Grok 4.20",
+      "purpose": "Deep learning and conceptual queries (4)",
+      "prompt": "What should a complete 'Reproducibility Checklist' look like for a data science notebook?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Reminded me to mention setting random seeds and managing hyperparameter locations.",
+      "code_used_verbatim": false,
+      "student_verification": "I carefully verified these conceptual explanations against the original paper.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "What are some best practices for visually comparing the accuracy of two machine learning models?",
+      "why_important": "Suggested a side-by-side bar chart which I implemented via matplotlib."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "How do I add the exact numerical value on top of each bar in a matplotlib bar chart?",
+      "why_important": "Generated the `ax.text` loop code to annotate bars."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Why might my reproduced result be exactly 0.9162 while the paper reports a range between 0.90 and 0.96?",
+      "why_important": "Helped me construct a strong scientific reasoning regarding fixed seeds vs 10-fold cross-validation."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "What should a complete 'Reproducibility Checklist' look like for a data science notebook?",
+      "why_important": "Reminded me to mention setting random seeds and managing hyperparameter locations."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part B.",
+    "understanding acknowledged": true,
+    "signature": "Charan Adithya",
+    "date": "2026-03-12"
+  }
+}
